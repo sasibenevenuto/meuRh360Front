@@ -1,0 +1,32 @@
+<mat-grid-list cols="4" rowHeight="100%">
+  <mat-grid-tile colspan="3">
+    <img src="../../assets/images/globo-2021.jpg" width="99%" height="99%" alt="Meu RH 360" style="border-radius: 1%;">
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <mat-label>Nome Completo</mat-label>
+        <input matInput placeholder="Digite seu nome completo" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>E-mail</mat-label>
+        <input matInput placeholder="Digite seu email cadastrado / ex email@gmail.com" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Senha</mat-label>
+        <input matInput type="password" placeholder="Digite uma senha forte" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Confirmação de senha</mat-label>
+        <input matInput type="password" placeholder="Repita a senha" />
+      </mat-form-field>
+      <mat-checkbox>Eu aceito os <span style="color: blue;cursor: pointer;">Termos de uso de privacidade</span> e o
+        <span style="color: blue;cursor: pointer;">contrato de serviço</span></mat-checkbox>
+      <br /><br />
+      <div class="example-button-row">
+        <button mat-flat-button style="width: 100%;" [routerLink]="['/welcome-company']">Criar Conta</button>
+      </div>
+    </form>
+
+  </mat-grid-tile>
+</mat-grid-list>

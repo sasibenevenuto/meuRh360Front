@@ -1,0 +1,34 @@
+<mat-grid-list cols="6" rowHeight="100%">;
+    <mat-grid-tile colspan="1" style="background-color:#005cbb">
+        <div>
+            <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle overflow-menu-toggle" data-flip="false"
+                data-toggle="dropdown" href="#" id="dropdownOverflowMenu_v" role="button"><i
+                    class="material-icons">more_vert</i></a>
+            <div aria-labelledby="dropdownOverflowMenu_v"
+                class="dropdown-menu overflow-menu overflow-menu--vertical dropdown-menu-right dropright">
+                <button class="dropdown-item" style="width: 100%;"><i class="material-icons">email</i> Message </button>
+                <button class="dropdown-item" style="width: 100%;"><i class="material-icons">vertical_align_bottom</i>
+                    Download </button>
+                <button class="dropdown-item" style="width: 100%;"><i class="material-icons">edit</i> Edit </button>
+                <button class="dropdown-item" style="width: 100%;"><i class="material-icons">delete</i> Delete </button>
+            </div>
+        </div>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="2">
+        <mat-card class="my-card" style="height: 300px;margin: 20px;">
+            <mat-card-title style="margin: 2%;">Olá, Henry. Seja bem-vindo</mat-card-title>
+            <mat-card-content style="text-align: center;width: 60%;margin-left: 15%;margin-top: 10%;">
+                <p>É necessário configurar a empresa matriz para visualizar todas as informações do sistema</p>
+            </mat-card-content>
+            <mat-card-footer>
+                <div class="example-button-row">
+                    <button mat-flat-button style="width: 90%;margin-left: 5%;margin-top: 10%;"
+                        [routerLink]="['/welcome-company']">INICIAR CONFIGURAÇÂO</button>
+                </div>
+            </mat-card-footer>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="3">
+
+    </mat-grid-tile>
+</mat-grid-list>
