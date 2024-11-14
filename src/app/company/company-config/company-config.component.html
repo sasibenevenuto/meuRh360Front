@@ -1,0 +1,29 @@
+<mat-grid-list cols="6" rowHeight="100%">;
+    <mat-grid-tile colspan="1" style="background-color: #007ee6;">
+        <app-toolbar></app-toolbar>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="5">
+
+        <mat-card class="my-card" style="width: 95%;height: 90%;">
+            <mat-card-title style="padding: 2%;">Empresa
+                <hr />
+                <div class="example-button-row" style="width: 98%;">
+                    <button mat-stroked-button [routerLink]="['/welcome-company']"
+                        style="width: 15%;float: left;">Editar Empresa</button>
+                    <button mat-stroked-button [routerLink]="['/welcome-company']"
+                        style="width: 15%;float: left;margin-left: 1%;">Gestão de Filiais</button>
+                    <button mat-stroked-button [routerLink]="['/welcome-company']"
+                        style="width: 15%;float: left;margin-left: 1%;">Faixas Salariais</button>
+                    <button mat-stroked-button [routerLink]="['/welcome-company']"
+                        style="width: 15%;float: left;margin-left: 1%;">Job Level</button>
+                </div>
+            </mat-card-title>
+            <mat-card-content>
+                <div class="example-container">
+                </div>
+            </mat-card-content>
+            <mat-card-footer>
+            </mat-card-footer>
+        </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>
